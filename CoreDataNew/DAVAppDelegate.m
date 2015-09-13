@@ -23,9 +23,9 @@
     
     
     _rootController = [[DAVRootViewController alloc] init];
-    
     _navController = [[UINavigationController alloc] initWithRootViewController:_rootController];
-    [self.window addSubview:_navController.view];
+
+    self.window.rootViewController = _rootController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
