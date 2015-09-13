@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9363A6B01794649D006F5B85 /* DAVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9363A6AE1794649C006F5B85 /* DAVWebViewController.m */; };
+		9363A6B11794649D006F5B85 /* DAVWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9363A6AF1794649D006F5B85 /* DAVWebViewController.xib */; };
+		9363A6B617946AA9006F5B85 /* DAVRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9363A6B417946AA8006F5B85 /* DAVRootViewController.m */; };
+		9363A6B717946AA9006F5B85 /* DAVRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9363A6B517946AA8006F5B85 /* DAVRootViewController.xib */; };
+		93D61ECF1792DA8A00F26FC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D61ECE1792DA8A00F26FC9 /* UIKit.framework */; };
+		93D61ED11792DA8A00F26FC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D61ED01792DA8A00F26FC9 /* Foundation.framework */; };
+		93D61ED31792DA8A00F26FC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D61ED21792DA8A00F26FC9 /* CoreGraphics.framework */; };
+		93D61ED51792DA8A00F26FC9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D61ED41792DA8A00F26FC9 /* CoreData.framework */; };
+		93D61EDB1792DA8A00F26FC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93D61ED91792DA8A00F26FC9 /* InfoPlist.strings */; };
+		93D61EDD1792DA8A00F26FC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D61EDC1792DA8A00F26FC9 /* main.m */; };
+		93D61EE11792DA8A00F26FC9 /* DAVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D61EE01792DA8A00F26FC9 /* DAVAppDelegate.m */; };
+		93D61EE41792DA8A00F26FC9 /* CoreDataNew.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93D61EE21792DA8A00F26FC9 /* CoreDataNew.xcdatamodeld */; };
+		93D61EEC1792DB2400F26FC9 /* DAVCoreDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D61EEB1792DB2400F26FC9 /* DAVCoreDataModel.m */; };
+		93D61EFB1792E37500F26FC9 /* DAVTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D61EF91792E37400F26FC9 /* DAVTableViewController.m */; };
+		93D61EFC1792E37500F26FC9 /* DAVTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93D61EFA1792E37500F26FC9 /* DAVTableViewController.xib */; };
+		93D61EFF1792E40100F26FC9 /* DAVRssParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D61EFE1792E40100F26FC9 /* DAVRssParser.m */; };
+		93D61F021792E44900F26FC9 /* DAVRssItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D61F011792E44800F26FC9 /* DAVRssItem.m */; };
+		D9F12910183C9BCA00E9D03C /* RssItems.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F1290F183C9BCA00E9D03C /* RssItems.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9363A6AD1794649C006F5B85 /* DAVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVWebViewController.h; sourceTree = "<group>"; };
+		9363A6AE1794649C006F5B85 /* DAVWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVWebViewController.m; sourceTree = "<group>"; };
+		9363A6AF1794649D006F5B85 /* DAVWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DAVWebViewController.xib; sourceTree = "<group>"; };
+		9363A6B317946AA8006F5B85 /* DAVRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVRootViewController.h; sourceTree = "<group>"; };
+		9363A6B417946AA8006F5B85 /* DAVRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVRootViewController.m; sourceTree = "<group>"; };
+		9363A6B517946AA8006F5B85 /* DAVRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DAVRootViewController.xib; sourceTree = "<group>"; };
+		93D61ECA1792DA8A00F26FC9 /* CoreDataNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D61ECE1792DA8A00F26FC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93D61ED01792DA8A00F26FC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93D61ED21792DA8A00F26FC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93D61ED41792DA8A00F26FC9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		93D61ED81792DA8A00F26FC9 /* CoreDataNew-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataNew-Info.plist"; sourceTree = "<group>"; };
+		93D61EDA1792DA8A00F26FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93D61EDC1792DA8A00F26FC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93D61EDE1792DA8A00F26FC9 /* CoreDataNew-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataNew-Prefix.pch"; sourceTree = "<group>"; };
+		93D61EDF1792DA8A00F26FC9 /* DAVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAVAppDelegate.h; sourceTree = "<group>"; };
+		93D61EE01792DA8A00F26FC9 /* DAVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAVAppDelegate.m; sourceTree = "<group>"; };
+		93D61EE31792DA8A00F26FC9 /* CoreDataNew.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataNew.xcdatamodel; sourceTree = "<group>"; };
+		93D61EEA1792DB2400F26FC9 /* DAVCoreDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVCoreDataModel.h; sourceTree = "<group>"; };
+		93D61EEB1792DB2400F26FC9 /* DAVCoreDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVCoreDataModel.m; sourceTree = "<group>"; };
+		93D61EF81792E37400F26FC9 /* DAVTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVTableViewController.h; sourceTree = "<group>"; };
+		93D61EF91792E37400F26FC9 /* DAVTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVTableViewController.m; sourceTree = "<group>"; };
+		93D61EFA1792E37500F26FC9 /* DAVTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DAVTableViewController.xib; sourceTree = "<group>"; };
+		93D61EFD1792E40000F26FC9 /* DAVRssParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVRssParser.h; sourceTree = "<group>"; };
+		93D61EFE1792E40100F26FC9 /* DAVRssParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVRssParser.m; sourceTree = "<group>"; };
+		93D61F001792E44800F26FC9 /* DAVRssItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVRssItem.h; sourceTree = "<group>"; };
+		93D61F011792E44800F26FC9 /* DAVRssItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVRssItem.m; sourceTree = "<group>"; };
+		D9F1290E183C9BCA00E9D03C /* RssItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssItems.h; sourceTree = "<group>"; };
+		D9F1290F183C9BCA00E9D03C /* RssItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssItems.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93D61EC71792DA8A00F26FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D61ECF1792DA8A00F26FC9 /* UIKit.framework in Frameworks */,
+				93D61ED11792DA8A00F26FC9 /* Foundation.framework in Frameworks */,
+				93D61ED31792DA8A00F26FC9 /* CoreGraphics.framework in Frameworks */,
+				93D61ED51792DA8A00F26FC9 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93D61EBF1792DA8A00F26FC9 = {
+			isa = PBXGroup;
+			children = (
+				93D61ED61792DA8A00F26FC9 /* CoreDataNew */,
+				93D61ECD1792DA8A00F26FC9 /* Frameworks */,
+				93D61ECB1792DA8A00F26FC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93D61ECB1792DA8A00F26FC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93D61ECA1792DA8A00F26FC9 /* CoreDataNew.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93D61ECD1792DA8A00F26FC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93D61ECE1792DA8A00F26FC9 /* UIKit.framework */,
+				93D61ED01792DA8A00F26FC9 /* Foundation.framework */,
+				93D61ED21792DA8A00F26FC9 /* CoreGraphics.framework */,
+				93D61ED41792DA8A00F26FC9 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93D61ED61792DA8A00F26FC9 /* CoreDataNew */ = {
+			isa = PBXGroup;
+			children = (
+				93D61EDF1792DA8A00F26FC9 /* DAVAppDelegate.h */,
+				93D61EE01792DA8A00F26FC9 /* DAVAppDelegate.m */,
+				93D61EE21792DA8A00F26FC9 /* CoreDataNew.xcdatamodeld */,
+				D9F1290E183C9BCA00E9D03C /* RssItems.h */,
+				D9F1290F183C9BCA00E9D03C /* RssItems.m */,
+				93D61ED71792DA8A00F26FC9 /* Supporting Files */,
+				93D61EEA1792DB2400F26FC9 /* DAVCoreDataModel.h */,
+				93D61EEB1792DB2400F26FC9 /* DAVCoreDataModel.m */,
+				93D61EF81792E37400F26FC9 /* DAVTableViewController.h */,
+				93D61EF91792E37400F26FC9 /* DAVTableViewController.m */,
+				93D61EFA1792E37500F26FC9 /* DAVTableViewController.xib */,
+				93D61EFD1792E40000F26FC9 /* DAVRssParser.h */,
+				93D61EFE1792E40100F26FC9 /* DAVRssParser.m */,
+				93D61F001792E44800F26FC9 /* DAVRssItem.h */,
+				93D61F011792E44800F26FC9 /* DAVRssItem.m */,
+				9363A6AD1794649C006F5B85 /* DAVWebViewController.h */,
+				9363A6AE1794649C006F5B85 /* DAVWebViewController.m */,
+				9363A6AF1794649D006F5B85 /* DAVWebViewController.xib */,
+				9363A6B317946AA8006F5B85 /* DAVRootViewController.h */,
+				9363A6B417946AA8006F5B85 /* DAVRootViewController.m */,
+				9363A6B517946AA8006F5B85 /* DAVRootViewController.xib */,
+			);
+			path = CoreDataNew;
+			sourceTree = "<group>";
+		};
+		93D61ED71792DA8A00F26FC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93D61ED81792DA8A00F26FC9 /* CoreDataNew-Info.plist */,
+				93D61ED91792DA8A00F26FC9 /* InfoPlist.strings */,
+				93D61EDC1792DA8A00F26FC9 /* main.m */,
+				93D61EDE1792DA8A00F26FC9 /* CoreDataNew-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93D61EC91792DA8A00F26FC9 /* CoreDataNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D61EE71792DA8A00F26FC9 /* Build configuration list for PBXNativeTarget "CoreDataNew" */;
+			buildPhases = (
+				93D61EC61792DA8A00F26FC9 /* Sources */,
+				93D61EC71792DA8A00F26FC9 /* Frameworks */,
+				93D61EC81792DA8A00F26FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataNew;
+			productName = CoreDataNew;
+			productReference = 93D61ECA1792DA8A00F26FC9 /* CoreDataNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93D61EC11792DA8A00F26FC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 93D61EC41792DA8A00F26FC9 /* Build configuration list for PBXProject "CoreDataNew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93D61EBF1792DA8A00F26FC9;
+			productRefGroup = 93D61ECB1792DA8A00F26FC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93D61EC91792DA8A00F26FC9 /* CoreDataNew */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93D61EC81792DA8A00F26FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D61EDB1792DA8A00F26FC9 /* InfoPlist.strings in Resources */,
+				93D61EFC1792E37500F26FC9 /* DAVTableViewController.xib in Resources */,
+				9363A6B11794649D006F5B85 /* DAVWebViewController.xib in Resources */,
+				9363A6B717946AA9006F5B85 /* DAVRootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93D61EC61792DA8A00F26FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D61EDD1792DA8A00F26FC9 /* main.m in Sources */,
+				93D61EE11792DA8A00F26FC9 /* DAVAppDelegate.m in Sources */,
+				93D61EE41792DA8A00F26FC9 /* CoreDataNew.xcdatamodeld in Sources */,
+				D9F12910183C9BCA00E9D03C /* RssItems.m in Sources */,
+				93D61EEC1792DB2400F26FC9 /* DAVCoreDataModel.m in Sources */,
+				93D61EFB1792E37500F26FC9 /* DAVTableViewController.m in Sources */,
+				93D61EFF1792E40100F26FC9 /* DAVRssParser.m in Sources */,
+				93D61F021792E44900F26FC9 /* DAVRssItem.m in Sources */,
+				9363A6B01794649D006F5B85 /* DAVWebViewController.m in Sources */,
+				9363A6B617946AA9006F5B85 /* DAVRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93D61ED91792DA8A00F26FC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D61EDA1792DA8A00F26FC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93D61EE51792DA8A00F26FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93D61EE61792DA8A00F26FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93D61EE81792DA8A00F26FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataNew/CoreDataNew-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataNew/CoreDataNew-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93D61EE91792DA8A00F26FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataNew/CoreDataNew-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataNew/CoreDataNew-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93D61EC41792DA8A00F26FC9 /* Build configuration list for PBXProject "CoreDataNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D61EE51792DA8A00F26FC9 /* Debug */,
+				93D61EE61792DA8A00F26FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D61EE71792DA8A00F26FC9 /* Build configuration list for PBXNativeTarget "CoreDataNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D61EE81792DA8A00F26FC9 /* Debug */,
+				93D61EE91792DA8A00F26FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93D61EE21792DA8A00F26FC9 /* CoreDataNew.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93D61EE31792DA8A00F26FC9 /* CoreDataNew.xcdatamodel */,
+			);
+			currentVersion = 93D61EE31792DA8A00F26FC9 /* CoreDataNew.xcdatamodel */;
+			path = CoreDataNew.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 93D61EC11792DA8A00F26FC9 /* Project object */;
+}
